@@ -1,0 +1,38 @@
+.logo-clientes {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .clientes-container {
+    display: flex;
+    flex-direction: column; /* Coloca las filas una debajo de la otra */
+    align-items: center; /* Centra las filas horizontalmente */
+  }
+  
+  .clientes-fila {
+    display: flex; /* Muestra las tarjetas en fila */
+    justify-content: center; /* Centra las tarjetas en la fila */
+    margin-bottom: 10px; /* Espacio entre las filas */
+  }
+  
+  .cliente-tarjeta {
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 10px; /* Espaciado entre tarjetas */
+    padding: 15px; /* Espaciado interno */
+    max-width: 200px; /* Ancho máximo de las tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  }
+  
+  .cliente-tarjeta img {
+    width: 100%; /* Imágenes que ocupan el 100% del ancho de la tarjeta */
+    height: 150px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Cubre el área definida sin distorsionar la imagen */
+    border-radius: 5px; /* Bordes redondeados de las imágenes */
+  }
+  
+  h2 {
+    margin: 20px 0; /* Espaciado alrededor del título */
+    font-size: 24px; /* Tamaño de fuente del título */
+  }
+  
