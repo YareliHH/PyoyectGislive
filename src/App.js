@@ -8,7 +8,7 @@ import PaginaCliente from './Paginas/PaginaCliente';
 import Login from './Componentes/Autenticacion/Login';
 import Registro from './Componentes/Autenticacion/Registro';
 import Recuperacion from './Componentes/Autenticacion/Recuperacion';
-//YARE PITSOTLl
+//YARE PITSOTL pon atencion 
 const App = () => {
   return (
     <>
