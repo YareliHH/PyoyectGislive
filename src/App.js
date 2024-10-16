@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import LayoutEncabezado from './Componentes/Layouts/LayoutEncabezado';
@@ -7,6 +8,7 @@ import PaginaCliente from './Paginas/PaginaCliente';
 import Login from './Componentes/Autenticacion/Login';
 import Registro from './Componentes/Autenticacion/Registro';
 import Recuperacion from './Componentes/Autenticacion/Recuperacion';
+//YARE PITSOTL
 const App = () => {
   return (
     <>
